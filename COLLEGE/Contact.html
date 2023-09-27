@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16*16">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="college logo"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.470111040868!2d76.97957021480481!3d11.226787092016872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f024a24f28b7%3A0xb1b1620384262a12!2sChrist%20the%20King%20Engineering%20College%2C%20Coimbatore%20(%20A%20Unit%20of%20DMI%20Foundation%20Trust%20%2C%20Chennai%20)!5e0!3m2!1sen!2sin!4v1689414538456!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h4>Christ the King Engineering College, Coimbatore
+                        </h4>
+                        <p>158/3, Cecilia Gardens Onnipalayam Road Mettupalayam to Airport Road Via Karamadai,
+                            Karamadai, Tamil Nadu 641104</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h4>+91 9445008362</h4>
+                        <p>Monday to Saturday,10AM to 5PM</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h4 > <a class="link" href="https://www.ckec.ac.in/">https://www.ckec.ac.in/</a></h4>
+                        <p>Visit Us For Your Query</p>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact-us">
+        
+            <div class="contact-col">
+                <form action="formhandler.php" method="post">
+                    <input type="text" name="Name" placeholder="Enter your Name"required>                   
+                    <input type="Email" name="email" placeholder="Enter your Email"required>
+                    <input type="text" name="Subject" placeholder="Enter your Subject"required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn-blog">Send Message</button>
+                </form>
+            </div>
+       
+    </section>
+
+    <section class="footer">
+        <h2>ABOUT US </h2>
+        <p>A governing council has been constituted as per the guidelines of AICTE and Anna University to guide and
+            advise the management in running <br>the Engineering College efficiently. This council consists of
+            Educationists, Industrialists and Administrators.</p>
+       
+        <p></p>
+    </section>
+    <section class="footer" >
+
+        <a href="https://www.instagram.com/christ_the_king_engg_clg/" target="_blank"><i class="fa-brands fa-instagram " style="color:rgb(24, 151, 160);"></i></a>
+        <a href="https://www.facebook.com/ckec.ac.in/" target="_blank"><i class="fa-brands fa-facebook " style="color:rgb(24, 151, 160);"></i></a>
+        <a href="https://www.youtube.com/channel/UC9R4jFSvL8S7GSFWj8jCrXQ" target="_blank"><i class="fa-brands fa-youtube " style="color:rgb(24, 151, 160);"></i></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCkecCse" target="_blank"><i class="fa-brands fa-twitter " style="color:rgb(24, 151, 160);"></i></a>
+        <div>
+            <a href="cp.html" style="text-decoration:none;color:black ;" target="_blank">
+                <h4><i class="fa-solid fa-copyright  "></i><span class="ml-2">Copyrights reserverd</span> </h4>
+            </a>
+        </div>
+</section>
+
+</body>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://kit.fontawesome.com/74b9ed4fbc.js" crossorigin="anonymous"></script>
+
+</html>

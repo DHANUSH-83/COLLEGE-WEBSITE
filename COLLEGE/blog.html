@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16*16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="college logo"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Onlibe Program For 2022</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/bg-1.png">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Going to college and prepping for the “real world” is not easy. Dealing with grades, studying, bills,
+                    pressure from your parents, and having to answer the big question: “What should I do with my life?“,
+                    means there are a lot of expectations on your plate.</p>
+
+                <p>Whether you are a new college student, a graduate, prepping for your finals, or in the middle of a
+                    semester still trying to get through your classes, being <br>a student can be stressful.</p>
+
+
+                <p>However, sometimes all it takes is a little inspiration and wisdom to find the motivation to kill it
+                    in your college classes. To save you from endless research and homework, we’ve put together a list
+                    of the 75 best graduation, and college student inspirational quotes of all time. </p>
+
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="Email" placeholder="Enter Email">
+                            <textarea  rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="btn-blog">Post Comment</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catogories</h3>
+                <div>
+                    <span>Business Analysis</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h2>ABOUT US </h2>
+        <p>A governing council has been constituted as per the guidelines of AICTE and Anna University to guide and
+            advise the management in running <br>the Engineering College efficiently. This council consists of
+            Educationists, Industrialists and Administrators.</p>
+        
+        <p></p>
+    </section>
+    <section class="footer" >
+
+        
+        <div>
+            <a href="cp.html" style="text-decoration:none;color:black ;" target="_blank">
+                <h4><i class="fa-solid fa-copyright  "></i><span class="ml-2">Copyrights reserverd</span> </h4>
+            </a>
+        </div>
+</section>
+
+</body>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://kit.fontawesome.com/74b9ed4fbc.js" crossorigin="anonymous"></script>
+
+</html>
